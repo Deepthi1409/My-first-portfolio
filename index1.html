@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deepthi's portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+       <div class="background">
+       <div class="nav">
+           <a class="a active" href="#">HOME</a>
+           <a class="b" href="#">ABOUT</a>
+           <a class="c" href="#">PROJECTS</a>
+           <a class="d" href="#">CONTACT</a>
+       </div>
+       <div class="content">
+         <div class="home">
+             <h1>Hey this is<br>deepthi</h1>
+             <h3>Machine learning enthusiast</h3>
+         </div>
+
+       </div>
+       </div>
+       <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+       <script type="text/javascript">
+         $(document).ready(function(){
+             $('a').click(function(){
+                 //alert("clicked");
+                 var selected = $(this);
+                 $('a').removeClass('active');
+                 $(selected).addClass('active');
+             });
+         });
+       
+       </script>
+    </body>
+</html>
