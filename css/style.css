@@ -85,3 +85,17 @@ a.active, .nav a:hover{
     padding: 0;
     opacity: 0.6;
 }
+.about{
+    position: absolute;
+    font-family: comic sans MS;
+    right: 0;
+    top: 10px;
+    color: brown;
+    padding: 0 60px;
+}
+.about p{
+    color: brown;
+    font-size: 30px;
+    font-family: comic sans MS;
+
+}
