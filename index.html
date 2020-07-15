@@ -18,15 +18,18 @@
              <h3>Machine learning enthusiast</h3>
          </div>
          <div class="About">
-             <p>Hello friends,this is Deepthi from India.
+             <p>Hello friends,<br>
+                 This is Deepthi from India.
                  This is my first site I have ever done.
-                 I am pursuing Computer Science and Engineering at PSG COllege Of Technology,COimbatore.
-                 Basically I am from a biologically background.I even don't know how to create a 
-                 program in a simple programming language.
-                 My inspirations are my friends who brought me interest to do something related to Computer science.
-                 I love designing a lot so this makes to build this portfolio site.</p>
+                 I am currently pursuing Computer Science and Engineering at PSG College Of Technology, Coimbatore.
+                 Basically, I am from a Biologically background.I even don't like computers and don't know how to code during my first year.
+                 But now I have created this site only because of my interests in designing.Dr.A.P.J. Abdul Kalam,Bill Gates,Elon Musk are inspirations which others have but for me 
+                 my friends are my inspirations.They brought me interests in this field mainly in AI,Machine Learning and Web development.I think I have improved a lot in this field.
+                My hobbies are dancing and watching movies.</p>
+             
 
          </div>
+         
 
        </div>
        </div>
@@ -39,6 +42,42 @@
                  $('a').removeClass('active');
                  $(selected).addClass('active');
              });
+             var $a=$('.a'),
+             $b=$('.b'),
+             $c=$('.c'),
+             $d=$('.d'),
+             $home=$('.home'),
+             $About=$('.About');
+             $projects=$('projects');
+             $contact=$('contact');
+
+             $a.click(function(){
+                 $home.fadeIn();
+                 $About.fadeOut();
+                 $projects.fadeOut();
+                 $contact.fadeOut();
+             });
+
+             $b.click(function(){
+                 $About.fadeIn();
+                 $home.fadeOut();
+                 $projects.fadeOut();
+                 $contact.fadeOut();
+             });
+             $c.click(function(){
+                 $projects.fadeIn();
+                 $home.fadeOut();
+                 $About.fadeOut();
+                 $contact.fadeOut();
+             });
+
+             $d.click(function(){
+                 $contact.fadeIn();
+                 $home.fadeOut();
+                 $projects.fadeOut();
+                 $About.fadeOut();
+             });
+
          });
        
        </script>
