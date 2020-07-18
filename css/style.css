@@ -43,8 +43,8 @@ html, body{
     transition: 300ms;
 }
 a.active, .nav a:hover{
-    background-color: white;
-    color: black;
+    background-color: burlywood;
+    color: white;
     width: 75%;
 }
 .a{
@@ -90,23 +90,36 @@ a.active, .nav a:hover{
 .About{
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     display: none;
+    position: relative;
 }
 .About h1{
     text-align: center;
-    
+    line-height: 100px;
     color: brown;
     font-size: 28px;
     font-family: comic sans MS;
+    text-transform: uppercase;
 }
 .About p{
     text-align: center;
     color: rgb(188, 135, 66);
     background: #e3e2e2;
     font-family: comic sans MS;
-    font-size: 20px;
+    font-size: 18px;
     top: 20px;
+    
+}
+.About h2{
+    text-align: center;
+    line-height: 100px;
+    color: brown;
+    font-size: 28px;
+    font-family: comic sans MS;
+    text-transform: uppercase;
+    position: relative;
+    
 }
 
 /*.about_me .abt_me .my_img{
