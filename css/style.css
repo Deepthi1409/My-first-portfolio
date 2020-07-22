@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 html, body{
     width: 100%;
@@ -89,18 +90,26 @@ a.active, .nav a:hover{
 }
 .About{
     margin: auto;
-    width: 50%;
-    padding: 20px;
+    width: 60%;
+    padding: 60px 0;
     display: none;
     position: relative;
+    padding-top: 5px;
 }
 .About h1{
     text-align: center;
     line-height: 100px;
     color: brown;
-    font-size: 28px;
+    font-size: 52px;
     font-family: comic sans MS;
     text-transform: uppercase;
+}
+.About img{
+    width: 200px;
+    height: 200px;
+    float:left;
+    padding:22.5px 0px 0px 10px;
+    
 }
 .About p{
     text-align: center;
@@ -109,17 +118,68 @@ a.active, .nav a:hover{
     font-family: comic sans MS;
     font-size: 18px;
     top: 20px;
+    line-height: 32px;
+    padding: 10px;
     
 }
 .About h2{
     text-align: center;
     line-height: 100px;
     color: brown;
-    font-size: 28px;
+    font-size: 52px;
     font-family: comic sans MS;
     text-transform: uppercase;
     position: relative;
     
+}
+.Skills{
+    background: #e3e2e2;
+    height: 550px;
+    width: 700px;
+    padding: 40px;
+
+    
+}
+.Skills h3{
+    line-height: 80px;
+    color: brown;
+    font-size: 20px;
+    font-family: comic sans MS;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.container{
+    width: 100%;
+    background-color: gray;
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    color: white; 
+}
+  
+.html {
+      width: 80%;
+      background-color: lightseagreen;
+} 
+.css {
+      width: 65%;
+      background-color: lightseagreen;
+} 
+.js {
+      width: 40%;
+      background-color: lightseagreen;
+} 
+.jquery {
+      width: 30%; 
+      background-color: lightseagreen;
+}
+.python{
+    width: 70%;
+    background-color: lightseagreen;
 }
 
 /*.about_me .abt_me .my_img{
